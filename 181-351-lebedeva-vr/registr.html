@@ -20,7 +20,7 @@ section {
         margin-right: -50%;
         transform: translate(-50%, -50%);
 
-          background: rgb(3, 184, 57);
+          background: rgb(4, 255, 79);
           border: 0px solid rgb(0, 0, 0);
             color: rgb(0, 0, 0);
             border-radius: 30px;
@@ -44,42 +44,44 @@ section {
     <body>
 <section>
 <form method="post" action="/login/">
+    <p align="center">  Регистрация  </p>
     <table>
+            <tr>
+                    <td><label for="login">Ваше имя:</label></td>
+                <td><input id="login" type="text" name="login"></td>
+            </tr>
     <tr>
-        <td><label for="login">Логин:</label></td>
-    <td><input id="login" type="text" name="login"></td>
+        <td><p><label for="login">Придумайте логин:</label></td>
+    <td><input id="login"  type="text" name="login" required></td></p>
 </tr>
 <tr>
-    <td><label for="password">Пароль:</label></td>
+    <td><label for="password">Придумайте пароль:</label></td>
     <td><input id="password" type="text" name="password"></td>
+    </tr>
+    <tr>
+            <td><label for="password">Ваш возраст:</label></td>
+            <td><input id="password" type="text" name="password"></td>
+            </tr>
+            <tr>
+    <td><label for="password">Пол:</label></td>
+<td><input  type="radio" name="m">М
+<input  type="radio" name="z">Ж</td>
+    </tr>
 
-</tr>
+    <tr>
+            <td><label for="password">E-mail:</label></td>
+            <td><input id="password" type="text" name="password"></td>
+            </tr>
+
+</table>
 </form>
 <form action="game.html">
         <tr>
                 <td cosplan="2" style="text-align: center">
-                <input type="submit" value="Войти"></td>
-                
-            </tr>
-</form>
-
-<form action="registr.html ">
-        <tr>
-                <td cosplan="2" style="text-align: center">
-                <input type="submit" value="Регистрация"></td>
-                
-            </tr>
-</form>
-<form action="passret.html">
-        <tr>
-                <td cosplan="2" style="text-align: center">
-                <input type="submit" value="Восстановить пароль"></td>
+                <input type="submit" value="Зарегистрироваться"></td>
                 
             </tr>
 </form> 
-
-</table>
-
 </section>
 
 
